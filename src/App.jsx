@@ -1,7 +1,8 @@
 import React from 'react';
-import Home from './components/Home';
-import About from './components/About';
+import Home from './Components/Home.jsx';
+import About from './Components/About.jsx';
 import VolunteerForm from './Components/VolunteerForm.jsx';
+
 
 const App = () => {
   return (
