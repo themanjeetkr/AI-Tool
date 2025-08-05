@@ -1,18 +1,16 @@
-import { useState } from 'react';
-import reactLogo from '/favicon.svg'; // ✅ Fixed
-// import viteLogo from '/vite.svg';
-import './App.css';
-import Navbar from './Components/Navbar';
+import React from 'react';
+import Home from './components/Home';
+import About from './components/About';
+import VolunteerForm from './Components/VolunteerForm.jsx';
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
-    <div>
-   
-      <Header/>
+    <div className="font-sans">
+      <Home />
+      <About />
+      <VolunteerForm />
     </div>
   );
-}
+};
 
 export default App;
