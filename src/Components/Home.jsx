@@ -1,3 +1,5 @@
+
+import React from 'react';
 const Home = () => {
   return (
     <header className="bg-green-700 text-white p-6 text-center">
